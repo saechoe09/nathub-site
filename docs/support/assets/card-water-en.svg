@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="392" viewBox="0 0 370 392" role="img" aria-labelledby="title desc">
+  <title id="title">Water Ripples</title>
+  <desc id="desc">A dark experiment card showing concentric water ripples.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="46%" r="70%">
+      <stop offset="0" stop-color="#2b2b2b"/>
+      <stop offset="0.62" stop-color="#181818"/>
+      <stop offset="1" stop-color="#101010"/>
+    </radialGradient>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="370" height="392" rx="34" fill="url(#bg)"/>
+  <rect width="370" height="392" rx="34" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+  <g transform="translate(185 151)" fill="none" stroke="#f4f4f4" stroke-opacity=".76" stroke-width="2.8" filter="url(#glow)">
+    <circle r="23"/>
+    <circle r="48"/>
+    <circle r="73"/>
+    <circle r="98"/>
+    <circle r="123"/>
+  </g>
+  <text x="185" y="319" fill="#f1f1f1" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Water Ripples</text>
+  <text x="185" y="343" fill="#9b9b9b" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12">Discover how waves form spread</text>
+</svg>

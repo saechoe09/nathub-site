@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="392" viewBox="0 0 370 392" role="img" aria-labelledby="title desc">
+  <title id="title">Foucault Pendulum</title>
+  <desc id="desc">A dark experiment card showing pendulum balls.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop offset="0" stop-color="#333333"/>
+      <stop offset="0.58" stop-color="#1c1c1c"/>
+      <stop offset="1" stop-color="#101010"/>
+    </radialGradient>
+    <radialGradient id="ball" cx="36%" cy="30%" r="65%">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="0.18" stop-color="#9db7ff"/>
+      <stop offset="0.44" stop-color="#16191f"/>
+      <stop offset="1" stop-color="#020203"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="370" height="392" rx="34" fill="url(#bg)"/>
+  <rect width="370" height="392" rx="34" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+  <g stroke="#eaf2ff" stroke-opacity=".62" stroke-width="1.4">
+    <path d="M45 10v221"/>
+    <path d="M96 8v223"/>
+    <path d="M148 8v223"/>
+    <path d="M199 8v223"/>
+    <path d="M251 8v223"/>
+    <path d="M302 10v221"/>
+  </g>
+  <g filter="url(#softGlow)">
+    <circle cx="45" cy="230" r="27" fill="url(#ball)"/>
+    <circle cx="96" cy="230" r="27" fill="url(#ball)"/>
+    <circle cx="148" cy="230" r="27" fill="url(#ball)"/>
+    <circle cx="199" cy="230" r="27" fill="url(#ball)"/>
+    <circle cx="251" cy="230" r="27" fill="url(#ball)"/>
+    <circle cx="302" cy="230" r="27" fill="url(#ball)"/>
+  </g>
+  <text x="185" y="319" fill="#f1f1f1" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Foucault Pendulum</text>
+  <text x="185" y="343" fill="#9b9b9b" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12">Explore the Secrets of Gravity</text>
+</svg>

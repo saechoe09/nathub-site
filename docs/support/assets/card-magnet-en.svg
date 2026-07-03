@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="392" viewBox="0 0 370 392" role="img" aria-labelledby="title desc">
+  <title id="title">Magnetic</title>
+  <desc id="desc">A dark experiment card showing magnetic particles.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#2b2b2b"/>
+      <stop offset="0.58" stop-color="#1c1c1c"/>
+      <stop offset="1" stop-color="#101010"/>
+    </radialGradient>
+    <radialGradient id="dot" cx="48%" cy="46%" r="56%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.22" stop-color="#e6ebf2"/>
+      <stop offset="0.56" stop-color="#8b8f93" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <rect width="370" height="392" rx="34" fill="url(#bg)"/>
+  <rect width="370" height="392" rx="34" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+  <g transform="translate(81 58)">
+    <g filter="url(#glow)" opacity=".8">
+      <circle cx="0" cy="0" r="22" fill="url(#dot)"/>
+      <circle cx="52" cy="0" r="22" fill="url(#dot)"/>
+      <circle cx="104" cy="0" r="22" fill="url(#dot)"/>
+      <circle cx="156" cy="0" r="22" fill="url(#dot)"/>
+      <circle cx="0" cy="58" r="22" fill="url(#dot)"/>
+      <circle cx="52" cy="58" r="22" fill="url(#dot)"/>
+      <circle cx="104" cy="58" r="22" fill="url(#dot)"/>
+      <circle cx="156" cy="58" r="22" fill="url(#dot)"/>
+      <circle cx="0" cy="116" r="22" fill="url(#dot)"/>
+      <circle cx="52" cy="116" r="22" fill="url(#dot)"/>
+      <circle cx="104" cy="116" r="22" fill="url(#dot)"/>
+      <circle cx="156" cy="116" r="22" fill="url(#dot)"/>
+      <circle cx="0" cy="174" r="22" fill="url(#dot)"/>
+      <circle cx="52" cy="174" r="22" fill="url(#dot)"/>
+      <circle cx="104" cy="174" r="22" fill="url(#dot)"/>
+      <circle cx="156" cy="174" r="22" fill="url(#dot)"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".92">
+      <path d="M-8 -8l14 14m-3-12h8v8"/>
+      <path d="M44 -8l14 14m-3-12h8v8"/>
+      <path d="M112 -8L98 6m3-12h-8v8"/>
+      <path d="M148 -8l14 14m-3-12h8v8"/>
+      <path d="M-8 50l14 14m-3-12h8v8"/>
+      <path d="M44 50l14 14m-3-12h8v8"/>
+      <path d="M112 50L98 64m3-12h-8v8"/>
+      <path d="M148 50l14 14m-3-12h8v8"/>
+      <path d="M-8 108l14 14m-3-12h8v8"/>
+      <path d="M44 108l14 14m-3-12h8v8"/>
+      <path d="M112 108L98 122m3-12h-8v8"/>
+      <path d="M148 108l14 14m-3-12h8v8"/>
+      <path d="M-8 166l14 14m-3-12h8v8"/>
+      <path d="M44 166l14 14m-3-12h8v8"/>
+      <path d="M112 166L98 180m3-12h-8v8"/>
+      <path d="M148 166l14 14m-3-12h8v8"/>
+    </g>
+  </g>
+  <text x="185" y="319" fill="#f1f1f1" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Magnetic</text>
+  <text x="185" y="343" fill="#9b9b9b" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12">Watch order emerge within the field</text>
+</svg>

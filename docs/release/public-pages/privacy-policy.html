@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NatHub Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --text: rgba(255, 255, 255, 0.96);
+        --muted: rgba(255, 255, 255, 0.44);
+        --soft: rgba(255, 255, 255, 0.68);
+        --line: rgba(141, 164, 205, 0.22);
+        --panel: rgba(255, 255, 255, 0.045);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: #000;
+      }
+
+      body {
+        min-height: 100svh;
+        margin: 0;
+        color: var(--text);
+        background:
+          radial-gradient(ellipse at 50% 0%, rgba(68, 90, 190, 0.18), transparent 34%),
+          linear-gradient(90deg, #151515 0%, #040404 26%, #000 100%);
+        font-family: "PingFang HK", "PingFang SC", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 132px;
+        pointer-events: none;
+        background: rgba(0, 0, 0, 0.9);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: rgba(255, 255, 255, 0.82);
+      }
+
+      .brand-mark {
+        position: fixed;
+        z-index: 10;
+        top: clamp(28px, 3.25vw, 46px);
+        left: clamp(28px, 4.22vw, 73px);
+        width: clamp(38px, 2.5vw, 43px);
+        aspect-ratio: 1;
+      }
+
+      .brand-mark img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .language-switch {
+        position: fixed;
+        z-index: 10;
+        top: clamp(30px, 3.4vw, 48px);
+        right: clamp(28px, 4.22vw, 73px);
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+      }
+
+      .language-switch a {
+        color: var(--muted);
+      }
+
+      .language-switch a:hover {
+        color: var(--text);
+      }
+
+      .language-switch button {
+        padding: 0;
+        border: 0;
+        color: var(--muted);
+        background: transparent;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      .language-switch button[aria-pressed="true"],
+      .language-switch button:hover {
+        color: var(--text);
+      }
+
+      main {
+        width: min(820px, calc(100% - 44px));
+        margin: 0 auto;
+        padding: clamp(92px, 12vw, 164px) 0 84px;
+      }
+
+      header {
+        margin-bottom: 34px;
+        padding-bottom: 26px;
+        border-bottom: 1px solid var(--line);
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(42px, 4vw, 68px);
+        font-weight: 600;
+        line-height: 1.18;
+      }
+
+      h2 {
+        margin: 34px 0 12px;
+        color: rgba(255, 255, 255, 0.92);
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 1.25;
+      }
+
+      p {
+        color: var(--soft);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.72;
+      }
+
+      .card {
+        margin: 26px 0;
+        padding: 22px 24px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      .card p {
+        margin: 0;
+      }
+
+      .divider {
+        height: 1px;
+        margin: 54px 0;
+        border: 0;
+        background: var(--line);
+      }
+
+      .mail {
+        color: rgba(255, 255, 255, 0.92);
+        font-weight: 500;
+      }
+
+      .lang-panel[hidden] {
+        display: none;
+      }
+
+      @media (max-width: 760px) {
+        body::before {
+          height: 118px;
+        }
+
+        .brand-mark {
+          width: 60px;
+        }
+
+        .language-switch {
+          top: 46px;
+          right: 7vw;
+        }
+
+        main {
+          width: min(86vw, 620px);
+          padding-top: 118px;
+        }
+
+        header {
+          text-align: left;
+        }
+
+        h1 {
+          font-size: 42px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="brand-mark" href="../../support/index.html" aria-label="NatHub home">
+      <img src="../../support/assets/union.png" width="78" height="79" alt="">
+    </a>
+
+    <nav class="language-switch" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <span>/</span>
+      <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+    </nav>
+
+    <main>
+      <section class="lang-panel" data-panel="en">
+        <header>
+          <h1>Privacy Policy</h1>
+        </header>
+
+        <section class="card">
+          <p>NatHub respects your privacy. The launch version does not require an account, does not include advertising, does not use third-party analytics, and does not collect, store, or share personal data.</p>
+        </section>
+
+        <h2>Data We Collect</h2>
+        <p>The launch version of NatHub does not collect personal data.</p>
+        <p>NatHub's Water Ripples, Light Refraction, Sand Traces, and Magnetic Array experiments run locally on your device. The app does not upload your experiment interactions, device identifiers, location, contacts, photos, microphone content, or other personal information.</p>
+
+        <h2>Device Permissions</h2>
+        <p>The launch version does not request access to the camera, microphone, photos, location, contacts, or other sensitive device permissions.</p>
+
+        <h2>Local Preferences</h2>
+        <p>The app may store language, sound, and haptic preferences locally on your current device. These preferences are used only to improve your experience on that device. They are not uploaded to a server and are not shared with third parties.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>The launch version does not include advertising, third-party analytics SDKs, third-party login, or payment services.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>NatHub provides a general natural-phenomena observation experience. The launch version does not collect personal data and does not ask children to provide contact details or account information.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>If a future release introduces accounts, online services, purchases, advertising, analytics, or other features that involve data collection, NatHub will update this policy before those features become available and explain any related data use.</p>
+
+        <h2>Contact</h2>
+        <p>For questions about this privacy policy, contact:</p>
+        <p><a class="mail" href="mailto:saechoe09@gmail.com">saechoe09@gmail.com</a></p>
+      </section>
+
+      <section class="lang-panel" data-panel="zh" hidden>
+        <header>
+          <h1>隐私政策</h1>
+        </header>
+
+        <section class="card">
+          <p>NatHub 尊重你的隐私。首发版本不要求注册账号，不包含广告，不接入第三方统计，也不收集、存储或共享个人数据。</p>
+        </section>
+
+        <h2>我们收集的数据</h2>
+        <p>NatHub 首发版本不收集个人数据。</p>
+        <p>NatHub 的水波、光的折射、沙之痕和磁力阵列实验均在设备本地运行。应用不会上传你的实验操作、设备标识、位置、联系人、照片、麦克风内容或其他个人信息。</p>
+
+        <h2>设备权限</h2>
+        <p>首发版本不请求相机、麦克风、照片、位置、通讯录或其他敏感设备权限。</p>
+
+        <h2>本地偏好设置</h2>
+        <p>应用可能在当前设备本地保存语言、声音和触感偏好。这些设置仅用于改善你的本机使用体验，不会上传到服务器，也不会与第三方共享。</p>
+
+        <h2>第三方服务</h2>
+        <p>首发版本不接入广告、第三方统计 SDK、第三方登录或支付服务。</p>
+
+        <h2>儿童隐私</h2>
+        <p>NatHub 面向一般用户提供自然现象观察体验。首发版本不收集个人数据，也不要求儿童提供联系方式或账号信息。</p>
+
+        <h2>政策更新</h2>
+        <p>如果未来版本引入账号、联网服务、付费功能、广告、数据分析或其他涉及数据收集的功能，NatHub 会在相关功能启用前更新本政策，并说明相关数据用途。</p>
+
+        <h2>联系方式</h2>
+        <p>如对本隐私政策有疑问，请通过以下邮箱联系：</p>
+        <p><a class="mail" href="mailto:saechoe09@gmail.com">saechoe09@gmail.com</a></p>
+      </section>
+    </main>
+    <script>
+      const switchButtons = document.querySelectorAll(".language-switch button");
+      const panels = document.querySelectorAll(".lang-panel");
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang === "zh" ? "zh-Hans" : "en";
+        panels.forEach((panel) => {
+          panel.hidden = panel.dataset.panel !== lang;
+        });
+        switchButtons.forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
+        });
+        window.scrollTo(0, 0);
+      }
+
+      switchButtons.forEach((button) => {
+        button.addEventListener("click", () => setLanguage(button.dataset.lang));
+      });
+    </script>
+  </body>
+</html>
